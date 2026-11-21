@@ -1,0 +1,24 @@
+{
+  "name": "shantanu-singh-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editorial portfolio website for Shantanu Singh",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20.19.0" },
+  "dependencies": {
+    "express": "^5.1.0",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.13.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/drei": "^10.7.6",
+    "split-type": "^0.3.4"
+  },
+  "devDependencies": { "vite": "^7.1.7" }
+}
